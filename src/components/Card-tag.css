@@ -1,0 +1,10 @@
+.tag {
+  font-family: "Ubuntu", sans-serif;
+  width: fit-content;
+  padding: 0.1rem 0.7rem 0.1rem 0.7rem;
+  height: 23px;
+  border-radius: 0.9rem;
+  text-align: center;
+  font-weight: 400;
+  justify-content: center;
+}

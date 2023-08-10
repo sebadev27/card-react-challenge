@@ -1,0 +1,10 @@
+.app {
+  width: 460px;
+  border-color: yellow;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  padding-bottom: 1.5rem;
+  outline: 2px;
+  outline-style: double;
+  outline-color: black;
+}
