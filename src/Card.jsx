@@ -5,15 +5,6 @@ import TittleDescription from "./components/Tittle&description";
 import skills from "./assets/data";
 ("./assets/data.jsx");
 
-const levelsArray = skills.map((skillObj) => skillObj.level);
-
-// console.log(levelsArray);
-console.log(typeof levelsArray);
-
-const objectValues = skills.level;
-
-console.log(objectValues);
-
 function Card() {
   return (
     <main className="main">
