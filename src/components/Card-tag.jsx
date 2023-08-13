@@ -1,22 +1,24 @@
 import "./Card-tag.css";
 import PropTypes from "prop-types";
 
-function Cardtag(props) {
-  const tagName = props.tagName;
-  const colorTag = props.colorProp;
-
+function Cardtag({ skills }) {
   return (
-    <>
-      <div className="tag" style={colorTag}>
-        {tagName}
-      </div>
-    </>
+    <ul className="tag-list">
+      {skills.map((skillObj, index) => (
+        <li
+          className="tag"
+          style={{ backgroundColor: skillObj.color }}
+          key={index}
+        >
+          {skillObj.skill}
+        </li>
+      ))}
+    </ul>
   );
 }
 
 Cardtag.propTypes = {
-  tagName: PropTypes.string.isRequired,
-  colorProp: PropTypes.object.isRequired,
+  skills: PropTypes.object.isRequired,
 };
 
 export default Cardtag;

@@ -1,10 +1,18 @@
-.tag {
+* {
   font-family: "Ubuntu", sans-serif;
-  width: fit-content;
-  padding: 0.1rem 0.7rem 0.1rem 0.7rem;
-  height: 23px;
-  border-radius: 0.9rem;
-  text-align: center;
-  font-weight: 400;
+}
+
+.tag-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.5rem;
   justify-content: center;
+}
+
+.tag {
+  padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+  border-radius: 0.9rem;
+  font-weight: 400;
 }

@@ -2,6 +2,17 @@
   font-family: "Ubuntu", sans-serif;
 }
 
+.main {
+  width: 460px;
+  border-color: yellow;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  padding-bottom: 0.2rem;
+  outline: 2px;
+  outline-style: double;
+  outline-color: black;
+}
+
 .img {
   display: block;
   top: 0;
@@ -24,10 +35,5 @@
 /* Wrapper for the tags */
 
 .tag-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
   padding: 0.5rem;
-  margin: 0 1rem 0 1rem;
-  justify-content: center;
 }
